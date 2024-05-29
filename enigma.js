@@ -14,8 +14,6 @@ const jp_letters_num = {
 "゛": 46,"゜": 47, "、":48, "。": 49
 }
 
-//メッセージ鍵、めんどすぎて嫌になった
-
 const plugboard = {
     "き": "い", "い": "き",
     "あ": "え", "え": "あ",
@@ -63,7 +61,7 @@ for(i = 0; i < hirabun.length; i++){
 }
 
 console.log(hirabun.join(""));
-console.log(angobun.join(""))
+console.log(angobun.join(""));
 
 function mod(k){ return k % jp_letters.length }
 
